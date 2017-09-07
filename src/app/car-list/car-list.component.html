@@ -1,0 +1,81 @@
+<div class="container">
+  <div class="row">
+      <div class="col-lg-10 col-md-12 col-sm-10 col-xs-12" 
+           style="border: 3px solid black; border-bottom: none; background-color:blueviolet;">
+           <h4>Carousel with Lists</h4>
+           <a class="right carousel-control" href="#licarousel" role="button" data-slide="cycle">
+              <span class="glyphicon glyphicon-play" aria-hidden="true" style="margin-top:7px;"></span>
+              <span class="sr-only">Play</span>
+          </a>
+          <a class="left carousel-control" href="#licarousel" role="button" data-slide="pause">
+              <span class="glyphicon glyphicon-pause" aria-hidden="true" style="margin-top:7px;"></span>
+              <span class="sr-only">Play</span>
+          </a>
+      </div>
+  </div>
+<div class="row">
+  <div class="col-lg-10 col-md-12 col-sm-10 col-xs-12" 
+           style="border: 3px solid black; border-top: none; background-color:blueviolet;">
+
+          <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
+        <div id="licarousel" class="carousel slide" data-ride="carousel" data-interval="2000" data-pause="false">
+          <ol class="carousel-indicators">
+            <li data-target="#licarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#licarousel" data-slide-to="1"></li>
+            <li data-target="#licarousel" data-slide-to="2"></li>
+                          <li data-target="#licarousel" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                              <p>Name</p>
+                              <ul class="list-group" style="margin: 0px;">
+                                  <li class="list-group-item">{{firstName_0}} {{lastName_0}}</li>
+                                  <li class="list-group-item">{{firstName_1}} {{lastName_1}}</li>
+                                  <li class="list-group-item">{{firstName_2}} {{lastName_2}}</li>
+                                  <li class="list-group-item">{{firstName_3}} {{lastName_3}}</li>
+                              </ul>
+            </div>
+                          <div class="item">
+                              <p>Address</p>
+                              <ul class="list-group" style="margin: 0px;">
+                                  <li class="list-group-item">{{address_0}}</li>
+                                  <li class="list-group-item">{{address_1}}</li>
+                                  <li class="list-group-item">{{address_2}}</li>
+                                  <li class="list-group-item">{{address_3}}</li>
+                              </ul>
+            </div>
+                          <div class="item">
+                              <p>Phone Number</p>
+                              <ul class="list-group" style="margin: 0px;">
+                                  <li class="list-group-item">{{phone_0}}</li>
+                                  <li class="list-group-item">{{phone_1}}</li>
+                                  <li class="list-group-item">{{phone_2}}</li>
+                                  <li class="list-group-item">{{phone_3}}</li>
+                              </ul>
+            </div>
+                          <div class="item">
+                              <p>e-mail</p>
+                              <ul class="list-group" style="margin: 0px;">
+                                  <li class="list-group-item">{{mail_0}}</li>
+                                  <li class="list-group-item">{{mail_1}}</li>
+                                  <li class="list-group-item">{{mail_2}}</li>
+                                  <li class="list-group-item">{{mail_3}}</li>
+                              </ul>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#licarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#licarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+        </div>
+
+      </div>
+  </div>
+</div>

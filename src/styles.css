@@ -1,63 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
 h1 {
-    color: #5f9ea0;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+  color: #5f9ea0;
+  font-family: Arial, Helvetica, sans-serif;
+}
   
-  h3 {
-    background-color: cornsilk;
-    color: lightslategrey;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 80%;
-  }
+h3 {
+  background-color: cornsilk;
+  color: lightslategrey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80%;
+}
   
-  h4 {
-    text-align: center;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+h4 {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
   
-  p {
-    text-align: center;
-    font-size: 115%;
-    font-weight: bold;
-    color: palevioletred;
-    background-color: #4d4d4d;
-    margin: 0px;
-  }
+p {
+  text-align: center;
+  font-size: 115%;
+  font-weight: bold;
+  color: palevioletred;
+  background-color: #4d4d4d;
+  margin: 0px;
+}
   
-  a {
-    cursor: pointer;
-    cursor: hand;
-  }
+a {
+  cursor: pointer;
+  cursor: hand;
+}
   
-  table {
-    background-color: lightsalmon;
-  }
-  th {
-    background-color: #4d4d4d;
-    color: orangered;
-  }
-  th, td {
-    text-align: left;
-  }
-  tr:nth-child(odd) {
-    background-color: #f2f2f2;
-  }
-  tr:hover {
-    color: white;
-    background-color: #9fbbdd;
-  }
+table {
+  background-color: lightsalmon;
+}
+th {
+  background-color: #4d4d4d;
+  color: orangered;
+}
+th, td {
+  text-align: left;
+}
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+tr:hover {
+  color: white;
+  background-color: #9fbbdd;
+}
   
-  .item li {
-    background: lightpink;
-  }
-  li:hover {
-    color: white;
-    background-color: #9fbbdd;
-  }
-  
-  * {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
+.item li {
+  background: lightpink;
+}
+li:hover {
+  color: white;
+  background-color: #9fbbdd;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
